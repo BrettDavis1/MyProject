@@ -30,55 +30,12 @@
         <item name="android:layout_marginStart">20dp</item>
         <item name="android:layout_marginEnd">20dp</item>
     </style>
-    <style name="MyHeadLine">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:layout_marginTop">40dp</item>
-        <item name="android:textAppearance">?textAppearanceHeadline4</item>
-    </style>
-    <style name="Coverage">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">40dp</item>
-        <item name="android:textAppearance">?textAppearanceSubtitle2</item>
-    </style>
-    <style name="NewsSource">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textAppearance">?textAppearanceHeadline6</item>
-        <item name="android:layout_marginTop">10dp</item>
-    </style>
-    <style name="MyHeadLine4">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textAppearance">?textAppearanceHeadline5</item>
-    </style>
-    <style name="Times">
+    <style name="CalcButtons">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textAppearance">?textAppearanceBody2</item>
-        <item name="android:layout_marginEnd">40dp</item>
-    </style>
-    <style name="MyBody">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">70dp</item>
-        <item name="android:textAppearance">?textAppearanceHeadline3</item>
-    </style>
-    <style name="BigImage">
-        <item name="android:adjustViewBounds">true</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">100dp</item>
-    </style>
-    <style name="SmallImage">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
-    <style name="Divider">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">2dp</item>
-        <item name="background">?android:attr/listDivider</item>
-        <item name="color">@color/black</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="background">@color/design_default_color_primary</item>
     </style>
     <!--Bottom Sheets-->
     <style name="ThemeOverlay.MyTheme.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">

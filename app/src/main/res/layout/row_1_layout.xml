@@ -5,29 +5,17 @@
     android:weightSum="4">
 
     <ImageButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/blood_orange"
+        style="@style/CalcButtons"
         android:src="@drawable/ic_outline_backspace"
         android:contentDescription="@string/backspace_button_description"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/american_yellow"
+        style="@style/CalcButtons"
         android:text="@string/c"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/blood_orange"
+        style="@style/CalcButtons"
         android:text="@string/plus_or_minus"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/american_yellow"
+        style="@style/CalcButtons"
         android:text="@string/slash"/>
 
 

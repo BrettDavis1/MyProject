@@ -5,27 +5,15 @@
     android:weightSum="4">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/blood_orange"
+        style="@style/CalcButtons"
         android:text="@string/_4"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/american_yellow"
+        style="@style/CalcButtons"
         android:text="@string/_5"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/blood_orange"
+        style="@style/CalcButtons"
         android:text="@string/_6"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/american_yellow"
+        style="@style/CalcButtons"
         android:text="@string/minus"/>
 </LinearLayout>
