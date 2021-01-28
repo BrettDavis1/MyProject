@@ -5,15 +5,15 @@
     android:weightSum="4">
 
     <com.google.android.material.button.MaterialButton
-        style="@style/CalcButtons"
+        style="@style/CalcButtonsColor"
         android:text="@string/percent"/>
     <com.google.android.material.button.MaterialButton
         style="@style/CalcButtons"
         android:text="@string/_0"/>
     <com.google.android.material.button.MaterialButton
-        style="@style/CalcButtons"
+        style="@style/CalcButtonsColor"
         android:text="@string/period"/>
     <com.google.android.material.button.MaterialButton
-        style="@style/CalcButtons"
+        style="@style/CalcButtonsColor"
         android:text="@string/equal"/>
 </LinearLayout>

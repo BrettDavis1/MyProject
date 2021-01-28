@@ -30,17 +30,39 @@
         <item name="android:layout_marginStart">20dp</item>
         <item name="android:layout_marginEnd">20dp</item>
     </style>
-    <style name="CalcButtons">
+    <style name="CalcButtonsIcon">
+        <item name="android:background">@color/design_default_color_secondary</item>
+        <item name="backgroundTint">@color/design_default_color_secondary</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:textAppearance">?textAppearanceButton</item>
+        <item name="android:textColor">@color/black</item>
     </style>
-    <style name="CalcButtonsColor">
+    <style name="CalcButtons" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">@color/design_default_color_primary</item>
+        <item name="backgroundTint">@color/design_default_color_primary</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:textAppearance">?textAppearanceButton</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CalcButtonsColor" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">@color/design_default_color_secondary</item>
+        <item name="backgroundTint">@color/design_default_color_secondary</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="textAppearanceButton">?textAppearanceButton</item>
+    </style>
+    <style name="TopNumber">
+        <item name="android:textSize">80sp</item>
+        <item name="android:textColor">@color/black</item>
     </style>
     <!--Bottom Sheets-->
     <style name="ThemeOverlay.MyTheme.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">

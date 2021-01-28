@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="4">
 
@@ -14,6 +15,6 @@
         style="@style/CalcButtons"
         android:text="@string/_9"/>
     <com.google.android.material.button.MaterialButton
-        style="@style/CalcButtons"
+        style="@style/CalcButtonsColor"
         android:text="@string/x"/>
 </LinearLayout>

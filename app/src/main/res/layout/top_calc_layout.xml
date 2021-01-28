@@ -5,6 +5,8 @@
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/total"
         android:text="@string/_2_010"
+        android:textSize="80sp"
+        style="@style/TopNumber"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="bottom|end"

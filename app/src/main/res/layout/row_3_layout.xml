@@ -14,6 +14,6 @@
         style="@style/CalcButtons"
         android:text="@string/_6"/>
     <com.google.android.material.button.MaterialButton
-        style="@style/CalcButtons"
+        style="@style/CalcButtonsColor"
         android:text="@string/minus"/>
 </LinearLayout>
