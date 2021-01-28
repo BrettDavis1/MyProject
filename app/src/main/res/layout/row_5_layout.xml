@@ -4,16 +4,16 @@
     android:layout_height="match_parent"
     android:weightSum="4">
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         style="@style/CalcButtons"
         android:text="@string/percent"/>
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         style="@style/CalcButtons"
         android:text="@string/_0"/>
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         style="@style/CalcButtons"
         android:text="@string/period"/>
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         style="@style/CalcButtons"
         android:text="@string/equal"/>
 </LinearLayout>

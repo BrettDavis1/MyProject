@@ -33,9 +33,14 @@
     <style name="CalcButtons">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
         <item name="android:layout_weight">1</item>
-        <item name="background">@color/design_default_color_primary</item>
+        <item name="android:textAppearance">?textAppearanceButton</item>
+    </style>
+    <style name="CalcButtonsColor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">?textAppearanceButton</item>
     </style>
     <!--Bottom Sheets-->
     <style name="ThemeOverlay.MyTheme.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">

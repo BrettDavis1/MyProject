@@ -5,17 +5,17 @@
     android:weightSum="4">
 
     <ImageButton
-        style="@style/CalcButtons"
+        style="@style/CalcButtonsColor"
         android:src="@drawable/ic_outline_backspace"
         android:contentDescription="@string/backspace_button_description"/>
-    <androidx.appcompat.widget.AppCompatButton
-        style="@style/CalcButtons"
+    <com.google.android.material.button.MaterialButton
+        style="@style/CalcButtonsColor"
         android:text="@string/c"/>
-    <androidx.appcompat.widget.AppCompatButton
-        style="@style/CalcButtons"
+    <com.google.android.material.button.MaterialButton
+        style="@style/CalcButtonsColor"
         android:text="@string/plus_or_minus"/>
-    <androidx.appcompat.widget.AppCompatButton
-        style="@style/CalcButtons"
+    <com.google.android.material.button.MaterialButton
+        style="@style/CalcButtonsColor"
         android:text="@string/slash"/>
 
 
